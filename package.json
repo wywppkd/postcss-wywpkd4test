@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "jest --coverage && eslint .",
-    "beta": "npm version prerelease --preid=beta"
+    "beta": "npm version prerelease --preid=beta && npm publish --tag beta"
   },
   "author": "Bran <bran.leey@outlook.com>",
   "license": "MIT",
