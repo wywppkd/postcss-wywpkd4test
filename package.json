@@ -9,7 +9,8 @@
     "postcss-wywppkd4test"
   ],
   "scripts": {
-    "test": "jest --coverage && eslint ."
+    "test": "jest --coverage && eslint .",
+    "beta": "npm version prerelease --preid=beta"
   },
   "author": "Bran <bran.leey@outlook.com>",
   "license": "MIT",
